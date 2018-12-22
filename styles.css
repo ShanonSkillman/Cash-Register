@@ -1,0 +1,311 @@
+.calculator{
+    border-style: solid;
+    border-radius: 25px;
+    background-color:#ECEBEB;
+    background-image: linear-gradient(rgb(0, 110, 255), rgb(75, 197, 245), rgb(153, 245, 245));
+    font-family: 'Paytone One', sans-serif;
+    font-style: bold;
+
+    padding: 20px 40px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 400px;
+    justify-content: space-evenly;
+    }
+
+    @media screen and (max-width: 400px){
+        .calculator{
+            background: orange;
+        }
+
+    }
+
+    .display{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: white;
+        width: 400px;
+        height: 60px;
+    }
+
+    #answer{
+        padding: 15px 32px;
+        font-size: 30px;
+        float: right;
+    }
+    
+    .buttons{
+        border-style: solid;
+        border-radius: 25px;
+    }
+    
+    .homeButtons{
+        padding: 25px 32px;
+        background-color: white;
+        border-radius: 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+    
+    #zero{
+     border-style: solid;
+     border-radius: 25px;
+     background-color: #B1EAFB;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+
+    #double0{
+        border-style: solid;
+     border-radius: 25px;
+     background-color: #B1EAFB;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+    
+    #one{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #B1EAFB;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    #two{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #B1EAFB;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    #three{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #B1EAFB;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+    
+    #four{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #B1EAFB;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    #five{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #B1EAFB;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+    
+    #six{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #B1EAFB;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+    
+    #seven{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #B1EAFB;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    #eight{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #B1EAFB;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+    
+    #nine{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #B1EAFB;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    .registerButtons{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    #getBalance{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #FEE6B4F4;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    #depositBalance{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #FEE6B4F4;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    #withdrawCash{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #FEE6B4F4;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    #addition{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #69E3D3;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    #subtract{
+        border-style: solid;
+        border-radius: 25px;
+        background-color:#69E3D3;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    #multiply{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #69E3D3;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    #divide{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #69E3D3;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+    
+    #percent{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #FEE6B4;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    #decimal{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #FEE6B4F4;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      
+    }
+    
+    .mainButtons{
+        padding: 15px 32px;
+        text-align: center;
+    }
+    
+    #equals{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #FAF8B8;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      width: 90px;
+    }
+    
+    #clear{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #FAF8B8;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      width: 90px;
+    }
