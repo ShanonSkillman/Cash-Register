@@ -1,4 +1,4 @@
-var calculatorModule = function(){   
+ function calculatorModule(){   
     var memory = 0;
     var total = 0;
 

@@ -26,9 +26,6 @@
         background-color: white;
         width: 400px;
         height: 60px;
-    }
-
-    #answer{
         padding: 15px 32px;
         font-size: 30px;
         float: right;
@@ -41,7 +38,7 @@
     
     .homeButtons{
         padding: 25px 32px;
-        background-color: white;
+        background-image: URL("http://dreamicus.com/data/sand/sand-05.jpg");
         border-radius: 25px;
       text-align: center;
       text-decoration: none;
@@ -49,6 +46,27 @@
       font-size: 16px;
     }
     
+    #cardiB{
+        height: 100px;
+        width: 500px;
+        float: right;
+        position: absolute;
+        top: 80px;
+        right: 400px;
+        width: 200px;
+        height: 100px;
+        font-size: 65px;
+        padding: 20px 40px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    #title{
+        font-size: 65px;
+        padding: 20px 40px;
+    }
+
+
     #zero{
      border-style: solid;
      border-radius: 25px;
@@ -192,7 +210,7 @@
         font-size: 16px;
     }
 
-    #depositBalance{
+    #depositCash{
         border-style: solid;
         border-radius: 25px;
         background-color: #FEE6B4F4;
